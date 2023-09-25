@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="4504844a-9ad3-4409-975c-311bd296074f"
+mode="Desktop">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="StartAUT"
+	namespace="Desktop_Automation_Gotis">
+	</codegen>
+	<variables>
+		<var
+		id="520b9a6e-73dd-447a-b3d5-ba8d24bc0fc4"
+		name="StartAutProcessIDVar">
+		</var>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+				<binding
+				target="ReturnVariable"
+				variable="StartAutProcessIDVar">
+				</binding>
+			</bindings>
+			<filename>
+				C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE
+			</filename>
+			<args>
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="e6d1a090-2023-407b-8906-9e9865bf892f"
+	name="Desktop_Automation_GotisRepository"
+	relativepath="Desktop_Automation_GotisRepository.rxrep">
+		<codegen
+		classname="Desktop_Automation_GotisRepository"
+		namespace="Desktop_Automation_Gotis">
+		</codegen>
+		<rootfolder
+		id="d1c2428f-4f9f-4b49-9cc3-e9d803733818"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		StartAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

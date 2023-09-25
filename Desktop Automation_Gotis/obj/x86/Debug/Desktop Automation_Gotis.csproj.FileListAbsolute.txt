@@ -1,0 +1,12 @@
+C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\bin\Debug\Desktop_Automation_Gotis.rxtmg
+C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\bin\Debug\Desktop_Automation_Gotis.rxtst
+C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\bin\Debug\Desktop Automation_Gotis.exe.config
+C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\bin\Debug\Desktop Automation_Gotis.xml
+C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\bin\Debug\Desktop Automation_Gotis.exe
+C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\bin\Debug\Desktop Automation_Gotis.pdb
+C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\obj\x86\Debug\Desktop Automation_Gotis.csproj.AssemblyReference.cache
+C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\obj\x86\Debug\Desktop Automation_Gotis.csproj.CoreCompileInputs.cache
+C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\obj\x86\Debug\Desktop Automation_Gotis.csproj.CopyComplete
+C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\obj\x86\Debug\Desktop Automation_Gotis.exe
+C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\obj\x86\Debug\Desktop Automation_Gotis.pdb

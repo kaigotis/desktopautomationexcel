@@ -1,0 +1,1339 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="5m"
+		durationms="302454"
+		type="root"
+		rid="12f99d2488e791c4"
+		totalerrorcount="1"
+		totalwarningcount="12"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Kai Gotis"
+		rxversion="10.7.4.0"
+		host="DESKTOP-RG6499B"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/25/2023 10:49:33 PM"
+		timestampiso="2023-09-25T14:49:33"
+		endtime="9/25/2023 10:54:35 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="5m"
+			durationms="298646"
+			type="test-suite"
+			rid="fd87982305925b8"
+			totalerrorcount="1"
+			totalwarningcount="12"
+			totalsuccesstestcasecount="0"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="0"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="0"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="Desktop_Automation_Gotis"
+			headertext="Desktop_Automation_Gotis"
+			runconfigname="TestRun"
+			runlabel=""
+			reportdescription="">
+			<params>
+				<param
+					name="AppProcessID">
+				</param>
+			</params>
+			<activity
+				result="Failed"
+				duration="5m"
+				durationms="298600"
+				type="test-case"
+				rid="27095de511caf488"
+				totalerrorcount="1"
+				totalwarningcount="12"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="2"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TestCase"
+				testcontainerid="b69f5bcd-6cde-4f1b-9958-413e16dec736"
+				headertext="TestCase"
+				displayName="TestCase"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="383ms"
+					durationms="383"
+					type="setup-container"
+					rid="a86210ec3d1b090"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="370ms"
+						durationms="370"
+						type="test-module"
+						rid="2ff9b53b4e36fdc"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="StartAUT"
+						displayName="StartAUT"
+						moduleid="4504844a-9ad3-4409-975c-311bd296074f"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="StartAutProcessIDVar"
+								value="">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.059"
+							timeRelativeToTestModuleStartTime="00:00.006"
+							timeWallClock="22:49:37"
+							time="00:00.059"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$StartAutProcessIDVar = ''
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+						<item
+							timeRelativeToTestSuiteStartTime="00:00.117"
+							timeRelativeToTestModuleStartTime="00:00.064"
+							timeWallClock="22:49:37"
+							time="00:00.117"
+							level="Info"
+							category="Application">
+							<message>
+								Run application 'C:\Program Files\Microsoft Office\root\Office16\EXCEL.EXE' in normal mode. Return value bound to $StartAutProcessIDVar.
+							</message>
+							<metainfo
+								itemindex="0"
+								codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\StartAUT.cs"
+								codeline="95"
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+				<activity
+					result="Failed"
+					duration="5m"
+					durationms="298182"
+					type="test-module"
+					rid="613f94cb754c9d"
+					totalerrorcount="1"
+					totalwarningcount="12"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Recording1"
+					displayName="Recording1"
+					moduleid="1ac3b718-4516-44d6-9e67-0801ef6c48df"
+					moduletype="Recording"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<errormessage>
+						Failed to find item 'Desktop_Automation_GotisRepository.Book11Excel.Save'. Please check that your whitelist allows Ranorex to access the process.
+					</errormessage>
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.429"
+						timeRelativeToTestModuleStartTime="00:00.004"
+						timeWallClock="22:49:37"
+						time="00:00.429"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Book11Excel.BlankWorkbook' at 90;61.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']//container[@automationid='BackstageView']/?/?/container[@automationid='PlaceTabHomeContent']/container[@automationid='HomePageSlabCreateNew']/?/?/listitem[@name='Blank workbook']"
+							itempath=".//container[@automationid='BackstageView']/?/?/container[@automationid='PlaceTabHomeContent']/container[@automationid='HomePageSlabCreateNew']/?/?/listitem[@name='Blank workbook']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.BlankWorkbook"
+							id="bd80e14e40f546f5952283bae726afe9"
+							timeout="90000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="82"
+							itemindex="0"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:21.237"
+						timeRelativeToTestModuleStartTime="00:20.812"
+						timeWallClock="22:49:58"
+						time="00:21.237"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{F5}' with focus on 'Book11Excel'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']"
+							itempath="/form[@processname='EXCEL']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Self"
+							id="0adf07bc1a4b4842ac4b4e057a0517a5"
+							timeout="60000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="86"
+							itemindex="1"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:41.437"
+						timeRelativeToTestModuleStartTime="00:41.012"
+						timeWallClock="22:50:18"
+						time="00:41.437"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'd1' with focus on 'Book11Excel'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']"
+							itempath="/form[@processname='EXCEL']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Self"
+							id="0adf07bc1a4b4842ac4b4e057a0517a5"
+							timeout="60000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="91"
+							itemindex="2"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:51.644"
+						timeRelativeToTestModuleStartTime="00:51.219"
+						timeWallClock="22:50:28"
+						time="00:51.644"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Book11Excel.ButtonOK' at 19;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']/button[@accessiblename='OK']"
+							itempath="button[@accessiblename='OK']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.ButtonOK"
+							id="4e5af33ee3f149499053462492a94660"
+							timeout="90000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="96"
+							itemindex="3"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:21.691"
+						timeRelativeToTestModuleStartTime="01:21.266"
+						timeWallClock="22:50:58"
+						time="01:21.691"
+						level="Info"
+						category="User">
+						<message>
+							Item 'ButtonOK' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="97"
+							loglvl="Info"
+							itemindex="3">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:21.744"
+						timeRelativeToTestModuleStartTime="01:21.319"
+						timeWallClock="22:50:58"
+						time="01:21.744"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'Desktop_Automation_GotisRepository.Book11Excel.ButtonOK' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Desktop_Automation_GotisRepository.Book11Excel'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="97"
+							loglvl="Warn"
+							id="4e5af33ee3f149499053462492a94660"
+							path="/form[@processname='EXCEL']/button[@accessiblename='OK']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.ButtonOK"
+							itemindex="3">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:22.167"
+						timeRelativeToTestModuleStartTime="01:21.742"
+						timeWallClock="22:50:59"
+						time="01:22.167"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '23{Down}66{Down}54{Down}78{Down}90{Down}=d1-d2{LShiftKey down}+{LShiftKey up}d3{LShiftKey down}+{LShiftKey up}d4{LShiftKey down}*{LShiftKey up}d5{Return}' with focus on 'Book11Excel'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']"
+							itempath="/form[@processname='EXCEL']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Self"
+							id="0adf07bc1a4b4842ac4b4e057a0517a5"
+							timeout="60000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="100"
+							itemindex="4"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:23.046"
+						timeRelativeToTestModuleStartTime="01:22.621"
+						timeWallClock="22:51:00"
+						time="01:23.046"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Book11Excel.FileSave' at 3;21.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']/element[3]//container[@name='Ribbon']/toolbar[@name='Quick Access Toolbar']/button[@automationid='FileSave']"
+							itempath="element[3]//container[@name='Ribbon']/toolbar[@name='Quick Access Toolbar']/button[@automationid='FileSave']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.FileSave"
+							id="da61aaedaa6340b4ad2030e6442f0a2d"
+							timeout="90000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="105"
+							itemindex="5"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:23.767"
+						timeRelativeToTestModuleStartTime="01:23.342"
+						timeWallClock="22:51:00"
+						time="01:23.767"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Book11Excel.DesktopAutomationTest' at 332;36.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']//container[@automationid='BackstageView']//list[@classname='NetUICoreListView']/container[@name='Today']/listitem[@name='Desktop Automation Test']"
+							itempath=".//container[@automationid='BackstageView']//list[@classname='NetUICoreListView']/container[@name='Today']/listitem[@name='Desktop Automation Test']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.DesktopAutomationTest"
+							id="54f041f42a874bd885853e7d4e95725b"
+							timeout="90000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="109"
+							itemindex="6"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:24.734"
+						timeRelativeToTestModuleStartTime="01:24.309"
+						timeWallClock="22:51:01"
+						time="01:24.734"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence 'desktop automation' with focus on 'Book11Excel'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']"
+							itempath="/form[@processname='EXCEL']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Self"
+							id="0adf07bc1a4b4842ac4b4e057a0517a5"
+							timeout="60000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="113"
+							itemindex="7"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:44.975"
+						timeRelativeToTestModuleStartTime="01:44.550"
+						timeWallClock="22:51:21"
+						time="01:44.975"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Book11Excel.ButtonSave' at 50;18.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']/button[@text='&amp;Save']"
+							itempath="button[@text='&amp;Save']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.ButtonSave"
+							id="6eea1926b2034e78940afa9c5bced349"
+							timeout="90000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="118"
+							itemindex="8"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:15.048"
+						timeRelativeToTestModuleStartTime="02:14.623"
+						timeWallClock="22:51:52"
+						time="02:15.048"
+						level="Info"
+						category="User">
+						<message>
+							Item 'ButtonSave' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="119"
+							loglvl="Info"
+							itemindex="8">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:15.152"
+						timeRelativeToTestModuleStartTime="02:14.727"
+						timeWallClock="22:51:52"
+						time="02:15.152"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'Desktop_Automation_GotisRepository.Book11Excel.ButtonSave' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Desktop_Automation_GotisRepository.Book11Excel'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="119"
+							loglvl="Warn"
+							id="6eea1926b2034e78940afa9c5bced349"
+							path="/form[@processname='EXCEL']/button[@text='&amp;Save']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.ButtonSave"
+							itemindex="8">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:15.569"
+						timeRelativeToTestModuleStartTime="02:15.144"
+						timeWallClock="22:51:52"
+						time="02:15.569"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Book11Excel.Sheet1.CellE1' at 33;-11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='1']/cell[@address='E1']"
+							itempath="row[@index='1']/cell[@address='E1']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Sheet1.CellE1"
+							id="3083c0ddd1e343c2a753aa2b17562905"
+							timeout="120000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="122"
+							itemindex="9"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:17.194"
+						timeRelativeToTestModuleStartTime="02:16.769"
+						timeWallClock="22:51:54"
+						time="02:17.194"
+						level="Warn"
+						category="Click"
+						errimg="images_Desktop__491ac42a\Desktop__a7f82c1b_rxlog.jpg"
+						errthumb="images_Desktop__491ac42a\Desktop__a7f82c1b_rxlog_thumb.jpg">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+						</message>
+						<metainfo
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="123"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:17.650"
+						timeRelativeToTestModuleStartTime="02:17.226"
+						timeWallClock="22:51:54"
+						time="02:17.650"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Right Click item 'Book11Excel.CellE' at 33;9.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']//container[@automationid='Book11']/?/?/table[@automationid='Grid']/cell[@name='E']"
+							itempath=".//container[@automationid='Book11']/?/?/table[@automationid='Grid']/cell[@name='E']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.CellE"
+							id="d6ef9780c0fa4604805e0cbcdd4d30c4"
+							timeout="90000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="126"
+							itemindex="10"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:36.062"
+						timeRelativeToTestModuleStartTime="02:35.637"
+						timeWallClock="22:52:13"
+						time="02:36.062"
+						level="Info"
+						category="User">
+						<message>
+							Item 'CellE' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="127"
+							loglvl="Info"
+							itemindex="10">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:36.517"
+						timeRelativeToTestModuleStartTime="02:36.092"
+						timeWallClock="22:52:13"
+						time="02:36.517"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Book11Excel.CellE' at 112;204.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']//container[@automationid='Book11']/?/?/table[@automationid='Grid']/cell[@name='E']"
+							itempath=".//container[@automationid='Book11']/?/?/table[@automationid='Grid']/cell[@name='E']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.CellE"
+							id="d6ef9780c0fa4604805e0cbcdd4d30c4"
+							timeout="90000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="130"
+							itemindex="11"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:38.969"
+						timeRelativeToTestModuleStartTime="02:38.544"
+						timeWallClock="22:52:15"
+						time="02:38.969"
+						level="Info"
+						category="User">
+						<message>
+							Item 'CellE' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="131"
+							loglvl="Info"
+							itemindex="11">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:39.021"
+						timeRelativeToTestModuleStartTime="02:38.596"
+						timeWallClock="22:52:15"
+						time="02:39.021"
+						level="Warn"
+						category="Click"
+						errimg="images_Desktop__491ac42a\Desktop__a7f92c1b_rxlog.jpg"
+						errthumb="images_Desktop__491ac42a\Desktop__a7f92c1b_rxlog_thumb.jpg">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+						</message>
+						<metainfo
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="131"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:39.451"
+						timeRelativeToTestModuleStartTime="02:39.026"
+						timeWallClock="22:52:16"
+						time="02:39.451"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Book11Excel.Sheet1.CellA5' at -10;-8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='5']/cell[@address='A5']"
+							itempath="row[@index='5']/cell[@address='A5']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Sheet1.CellA5"
+							id="fe4e29ed11134c948b21693bbd99912f"
+							timeout="120000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="134"
+							itemindex="12"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:40.040"
+						timeRelativeToTestModuleStartTime="02:39.615"
+						timeWallClock="22:52:16"
+						time="02:40.040"
+						level="Warn"
+						category="Click"
+						errimg="images_Desktop__491ac42a\Desktop__a7fa2c1b_rxlog.jpg"
+						errthumb="images_Desktop__491ac42a\Desktop__a7fa2c1b_rxlog_thumb.jpg">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+						</message>
+						<metainfo
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="135"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:40.485"
+						timeRelativeToTestModuleStartTime="02:40.060"
+						timeWallClock="22:52:17"
+						time="02:40.485"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Right Click item 'Book11Excel.Cell4' at 16;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']//container[@automationid='desktop automation.xlsx']/?/?/table[@automationid='Grid']/cell[@name='4']"
+							itempath=".//container[@automationid='desktop automation.xlsx']/?/?/table[@automationid='Grid']/cell[@name='4']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Cell4"
+							id="8296625cfaae4f8c9fb71394afece428"
+							timeout="90000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="138"
+							itemindex="13"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:42.967"
+						timeRelativeToTestModuleStartTime="02:42.542"
+						timeWallClock="22:52:19"
+						time="02:42.967"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Book11Excel.Insert' at 78;10.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']/?/?/container[@classname='NetUIPanViewer']/container[2]/menuitem[@name='Insert']"
+							itempath="?/?/container[@classname='NetUIPanViewer']/container[2]/menuitem[@name='Insert']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Insert"
+							id="7e697a462f234edbb0049c978ace0347"
+							timeout="90000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="142"
+							itemindex="14"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:01.558"
+						timeRelativeToTestModuleStartTime="03:01.133"
+						timeWallClock="22:52:38"
+						time="03:01.558"
+						level="Info"
+						category="User">
+						<message>
+							Item 'Insert' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="143"
+							loglvl="Info"
+							itemindex="14">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:01.603"
+						timeRelativeToTestModuleStartTime="03:01.178"
+						timeWallClock="22:52:38"
+						time="03:01.603"
+						level="Warn"
+						category="Click"
+						errimg="images_Desktop__491ac42a\Desktop__a7fb2c1b_rxlog.jpg"
+						errthumb="images_Desktop__491ac42a\Desktop__a7fb2c1b_rxlog_thumb.jpg">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+						</message>
+						<metainfo
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="143"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:02.251"
+						timeRelativeToTestModuleStartTime="03:01.826"
+						timeWallClock="22:52:39"
+						time="03:02.251"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Book11Excel.Sheet1.CellC1' at 232;-15.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='1']/cell[@address='C1']"
+							itempath="row[@index='1']/cell[@address='C1']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Sheet1.CellC1"
+							id="d998b7f593724e5aac367e9d677ffbb5"
+							timeout="120000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="146"
+							itemindex="15"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:02.653"
+						timeRelativeToTestModuleStartTime="03:02.228"
+						timeWallClock="22:52:39"
+						time="03:02.653"
+						level="Warn"
+						category="Click"
+						errimg="images_Desktop__491ac42a\Desktop__a7f42c1b_rxlog.jpg"
+						errthumb="images_Desktop__491ac42a\Desktop__a7f42c1b_rxlog_thumb.jpg">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+						</message>
+						<metainfo
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="147"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:03.083"
+						timeRelativeToTestModuleStartTime="03:02.658"
+						timeWallClock="22:52:40"
+						time="03:03.083"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Right Click item 'Book11Excel.CellF' at 40;5.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']//container[@automationid='desktop automation.xlsx']/?/?/table[@automationid='Grid']/cell[@name='F']"
+							itempath=".//container[@automationid='desktop automation.xlsx']/?/?/table[@automationid='Grid']/cell[@name='F']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.CellF"
+							id="269ffb61d4a8487ab20188120e341fe6"
+							timeout="90000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="150"
+							itemindex="16"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:05.536"
+						timeRelativeToTestModuleStartTime="03:05.111"
+						timeWallClock="22:52:42"
+						time="03:05.536"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Book11Excel.Delete' at 53;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']/?/?/container[@classname='NetUIPanViewer']/container[2]/menuitem[@name='Delete']"
+							itempath="?/?/container[@classname='NetUIPanViewer']/container[2]/menuitem[@name='Delete']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Delete"
+							id="fd81582670124b8fadedcdcc7c9632a9"
+							timeout="90000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="154"
+							itemindex="17"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:36.180"
+						timeRelativeToTestModuleStartTime="03:35.755"
+						timeWallClock="22:53:13"
+						time="03:36.180"
+						level="Info"
+						category="User">
+						<message>
+							Item 'Delete' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="155"
+							loglvl="Info"
+							itemindex="17">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:36.564"
+						timeRelativeToTestModuleStartTime="03:36.139"
+						timeWallClock="22:53:13"
+						time="03:36.564"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'Desktop_Automation_GotisRepository.Book11Excel.Delete' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Desktop_Automation_GotisRepository.Book11Excel'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="155"
+							loglvl="Warn"
+							id="fd81582670124b8fadedcdcc7c9632a9"
+							path="/form[@processname='EXCEL']/?/?/container[@classname='NetUIPanViewer']/container[2]/menuitem[@name='Delete']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Delete"
+							itemindex="17">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:37.053"
+						timeRelativeToTestModuleStartTime="03:36.628"
+						timeWallClock="22:53:14"
+						time="03:37.053"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Book11Excel.Sheet1.CellA5' at -13;-8.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='5']/cell[@address='A5']"
+							itempath="row[@index='5']/cell[@address='A5']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Sheet1.CellA5"
+							id="fe4e29ed11134c948b21693bbd99912f"
+							timeout="120000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="158"
+							itemindex="18"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:37.606"
+						timeRelativeToTestModuleStartTime="03:37.181"
+						timeWallClock="22:53:14"
+						time="03:37.606"
+						level="Warn"
+						category="Click"
+						errimg="images_Desktop__491ac42a\Desktop__a7f52c1b_rxlog.jpg"
+						errthumb="images_Desktop__491ac42a\Desktop__a7f52c1b_rxlog_thumb.jpg">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+						</message>
+						<metainfo
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="159"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:38.033"
+						timeRelativeToTestModuleStartTime="03:37.608"
+						timeWallClock="22:53:14"
+						time="03:38.033"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Right Click item 'Book11Excel.Cell4' at 13;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']//container[@automationid='desktop automation.xlsx']/?/?/table[@automationid='Grid']/cell[@name='4']"
+							itempath=".//container[@automationid='desktop automation.xlsx']/?/?/table[@automationid='Grid']/cell[@name='4']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Cell4"
+							id="8296625cfaae4f8c9fb71394afece428"
+							timeout="90000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="162"
+							itemindex="19"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="03:40.517"
+						timeRelativeToTestModuleStartTime="03:40.092"
+						timeWallClock="22:53:17"
+						time="03:40.517"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Book11Excel.Delete' at 63;14.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']/?/?/container[@classname='NetUIPanViewer']/container[2]/menuitem[@name='Delete']"
+							itempath="?/?/container[@classname='NetUIPanViewer']/container[2]/menuitem[@name='Delete']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Delete"
+							id="fd81582670124b8fadedcdcc7c9632a9"
+							timeout="90000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="166"
+							itemindex="20"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="04:10.611"
+						timeRelativeToTestModuleStartTime="04:10.186"
+						timeWallClock="22:53:47"
+						time="04:10.611"
+						level="Info"
+						category="User">
+						<message>
+							Item 'Delete' was found using Robust path.
+						</message>
+						<metainfo
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="167"
+							loglvl="Info"
+							itemindex="20">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="04:11.117"
+						timeRelativeToTestModuleStartTime="04:10.692"
+						timeWallClock="22:53:48"
+						time="04:11.117"
+						level="Warn"
+						category="Repository">
+						<message>
+							Item 'Desktop_Automation_GotisRepository.Book11Excel.Delete' could be found using its absolute path, but not using its relative path from the cached element of parent folder 'Desktop_Automation_GotisRepository.Book11Excel'. This can happen if either the item search timeout is too small or if items within a rooted folder do not share a common parent element. To fix this problem, first increase the item search timeout. If this does not help, create a separate rooted folder for this item or disable caching for the specified folder.
+						</message>
+						<metainfo
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="167"
+							loglvl="Warn"
+							id="fd81582670124b8fadedcdcc7c9632a9"
+							path="/form[@processname='EXCEL']/?/?/container[@classname='NetUIPanViewer']/container[2]/menuitem[@name='Delete']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Delete"
+							itemindex="20">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="04:11.600"
+						timeRelativeToTestModuleStartTime="04:11.175"
+						timeWallClock="22:53:48"
+						time="04:11.600"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Book11Excel.Sheet1.CellD5' at 58;12.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='5']/cell[@address='D5']"
+							itempath="row[@index='5']/cell[@address='D5']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Sheet1.CellD5"
+							id="4538a3e1f66846c5bc1359313b6d3569"
+							timeout="120000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="170"
+							itemindex="21"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="04:12.551"
+						timeRelativeToTestModuleStartTime="04:12.126"
+						timeWallClock="22:53:49"
+						time="04:12.551"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Down item 'Book11Excel.Sheet1.CellD5' at 58;11.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='5']/cell[@address='D5']"
+							itempath="row[@index='5']/cell[@address='D5']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Sheet1.CellD5"
+							id="4538a3e1f66846c5bc1359313b6d3569"
+							timeout="120000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="174"
+							itemindex="22"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="04:13.235"
+						timeRelativeToTestModuleStartTime="04:12.810"
+						timeWallClock="22:53:50"
+						time="04:13.235"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Up item 'Book11Excel.Sheet1.CellD5' at 55;-19.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='5']/cell[@address='D5']"
+							itempath="row[@index='5']/cell[@address='D5']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Sheet1.CellD5"
+							id="4538a3e1f66846c5bc1359313b6d3569"
+							timeout="120000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="179"
+							itemindex="23"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="04:14.887"
+						timeRelativeToTestModuleStartTime="04:14.462"
+						timeWallClock="22:53:51"
+						time="04:14.887"
+						level="Warn"
+						category="MoveTo"
+						errimg="images_Desktop__491ac42a\Desktop__a7f62c1b_rxlog.jpg"
+						errthumb="images_Desktop__491ac42a\Desktop__a7f62c1b_rxlog_thumb.jpg">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+						</message>
+						<metainfo
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="180"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="04:15.559"
+						timeRelativeToTestModuleStartTime="04:15.134"
+						timeWallClock="22:53:52"
+						time="04:15.559"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{LControlKey down}{Ckey}{LControlKey up}' with focus on 'Book11Excel'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']"
+							itempath="/form[@processname='EXCEL']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Self"
+							id="0adf07bc1a4b4842ac4b4e057a0517a5"
+							timeout="60000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="184"
+							itemindex="24"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="04:35.747"
+						timeRelativeToTestModuleStartTime="04:35.322"
+						timeWallClock="22:54:12"
+						time="04:35.747"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Book11Excel.Sheet1.CellE1' at 34;7.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='1']/cell[@address='E1']"
+							itempath="row[@index='1']/cell[@address='E1']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Sheet1.CellE1"
+							id="3083c0ddd1e343c2a753aa2b17562905"
+							timeout="120000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="189"
+							itemindex="25"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="04:36.518"
+						timeRelativeToTestModuleStartTime="04:36.094"
+						timeWallClock="22:54:13"
+						time="04:36.518"
+						level="Info"
+						category="Keyboard">
+						<message>
+							Key sequence '{LControlKey down}{Vkey}{LControlKey up}' with focus on 'Book11Excel.Sheet1.CellE1'.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='1']/cell[@address='E1']"
+							itempath="row[@index='1']/cell[@address='E1']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Sheet1.CellE1"
+							id="3083c0ddd1e343c2a753aa2b17562905"
+							timeout="120000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="193"
+							itemindex="26"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="04:36.854"
+						timeRelativeToTestModuleStartTime="04:36.429"
+						timeWallClock="22:54:13"
+						time="04:36.854"
+						level="Info"
+						category="Mouse">
+						<message>
+							Mouse Left Click item 'Book11Excel.StatusBar' at 382;-777.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']/element[@instance='1']/container[@caption='Status Bar']//statusbar[@name='Status Bar']"
+							itempath="element[@instance='1']/container[@caption='Status Bar']//statusbar[@name='Status Bar']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.StatusBar"
+							id="b9a6dab5636c4f5ba034809a31680395"
+							timeout="80000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="197"
+							itemindex="27"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="04:37.011"
+						timeRelativeToTestModuleStartTime="04:36.586"
+						timeWallClock="22:54:13"
+						time="04:37.011"
+						level="Warn"
+						category="Click"
+						errimg="images_Desktop__491ac42a\Desktop__a7f72c1b_rxlog.jpg"
+						errthumb="images_Desktop__491ac42a\Desktop__a7f72c1b_rxlog_thumb.jpg">
+						<message>
+							The mouse action was performed outside the boundaries of the assigned UI element.<br/>
+						</message>
+						<metainfo
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="198"
+							loglvl="Warn">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="04:37.518"
+						timeRelativeToTestModuleStartTime="04:37.093"
+						timeWallClock="22:54:14"
+						time="04:37.518"
+						level="Info"
+						category="Mouse"
+						errimg="images_Desktop__491ac42a\Desktop__491ac42a_ede9ab08_trace.jpg"
+						errthumb="images_Desktop__491ac42a\Desktop__491ac42a_ede9ab08_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'Book11Excel.Close' at 22;18.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']/element[3]/container[@caption='Ribbon']//container[@name='Ribbon']/button[@name='Close']"
+							itempath="element[3]/container[@caption='Ribbon']//container[@name='Ribbon']/button[@name='Close']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Close"
+							id="a87772c0540f4ef0afbeae54fb2fc0af"
+							timeout="80000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="201"
+							itemindex="28"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="04:38.202"
+						timeRelativeToTestModuleStartTime="04:37.777"
+						timeWallClock="22:54:15"
+						time="04:38.202"
+						level="Info"
+						category="Mouse"
+						errimg="images_Desktop__491ac42a\Desktop__491ac42a_6ffdc2dd_trace.jpg"
+						errthumb="images_Desktop__491ac42a\Desktop__491ac42a_6ffdc2dd_trace_thumb.jpg">
+						<message>
+							Mouse Left Click item 'Book11Excel.Save' at 37;13.
+						</message>
+						<metainfo
+							type="repoitem"
+							path="/form[@processname='EXCEL']/?/?/form[@name='Microsoft Excel' and @active='True']/button[@name='Save' and @pressed='False']"
+							itempath="?/?/form[@name='Microsoft Excel' and @active='True']/button[@name='Save' and @pressed='False']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Save"
+							id="8ba43f6eb2e348cda947adf44316378c"
+							timeout="80000"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="205"
+							itemindex="29"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="04:58.521"
+						timeRelativeToTestModuleStartTime="04:58.096"
+						timeWallClock="22:54:35"
+						time="04:58.521"
+						level="Error"
+						category="Module"
+						errimg="images_Desktop__491ac42a\Desktop__491ac42a_99c3d6a1_trace.jpg"
+						errthumb="images_Desktop__491ac42a\Desktop__491ac42a_99c3d6a1_trace_thumb.jpg">
+						<message>
+							Failed to find item 'Desktop_Automation_GotisRepository.Book11Excel.Save'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '?/?/form[@name='Microsoft Excel' and @active='True']/button[@name='Save' and @pressed='False']' at step 'form[@name='Microsoft Excel' and @active='True']' after 118 attempts within 20s.
+						</message>
+						<metainfo
+							stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass81_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.get_Save() in C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Desktop_Automation_GotisRepository.cs:line 447&#13;&#10;   at Desktop_Automation_Gotis.Recording1.Ranorex.Core.Testing.ITestModule.Run() in C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs:line 206&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+							codefile="C:\Users\Kai Gotis\Documents\Ranorex\RanorexStudio Projects\Desktop Automation_Gotis\Desktop Automation_Gotis\Recording1.cs"
+							codeline="206"
+							type="repoitem"
+							path="/form[@processname='EXCEL']/?/?/form[@name='Microsoft Excel' and @active='True']/button[@name='Save' and @pressed='False']"
+							itempath="?/?/form[@name='Microsoft Excel' and @active='True']/button[@name='Save' and @pressed='False']"
+							fullname="Desktop_Automation_GotisRepository.Book11Excel.Save"
+							id="8ba43f6eb2e348cda947adf44316378c"
+							timeout="80000"
+							failedStep="form[@name='Microsoft Excel' and @active='True']"
+							bestPathPrefix="?/?"
+							loglvl="Error"
+							itemindex="29">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="30ms"
+					durationms="30"
+					type="teardown-container"
+					rid="6393b94b459010"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="1"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0">
+					<activity
+						result="Success"
+						duration="28ms"
+						durationms="28"
+						type="test-module"
+						rid="5839b208ca4ca9"
+						totalerrorcount="0"
+						totalwarningcount="0"
+						totalsuccesstestcasecount="0"
+						totalfailedtestcasecount="0"
+						totalblockedtestcasecount="0"
+						childsuccesscount="0"
+						childfailedcount="0"
+						childblockedcount="0"
+						totalsuccesscount="0"
+						totalfailedcount="0"
+						totalblockedcount="0"
+						totalmaintenancemodecount="0"
+						modulename="CloseAUT"
+						displayName="CloseAUT"
+						moduleid="0016ed5a-58fa-48fe-bce0-86d040fe57bc"
+						moduletype="Recording"
+						iteration="1"
+						activity-exectype="execute"
+						testentry-activity-type="testmodule">
+						<varbindings>
+							<varbinding
+								name="CloseAutProcessIDVar"
+								value="10164">
+							</varbinding>
+						</varbindings>
+						<item
+							timeRelativeToTestSuiteStartTime="04:58.609"
+							timeRelativeToTestModuleStartTime="00:00.000"
+							timeWallClock="22:54:35"
+							time="04:58.609"
+							level="Info"
+							category="Data">
+							<message>
+								Current variable values:<br/>$CloseAutProcessIDVar = '10164'
+							</message>
+							<metainfo
+								loglvl="Info">
+							</metainfo>
+						</item>
+					</activity>
+				</activity>
+			</activity>
+		</activity>
+	</activity>
+</report>

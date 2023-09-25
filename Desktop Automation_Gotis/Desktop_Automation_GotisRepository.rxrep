@@ -1,0 +1,255 @@
+﻿<repository
+id="e6d1a090-2023-407b-8906-9e9865bf892f"
+name="Desktop_Automation_GotisRepository">
+	<codegen
+	classname="Desktop_Automation_GotisRepository"
+	namespace="Desktop_Automation_Gotis">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="d1c2428f-4f9f-4b49-9cc3-e9d803733818"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow,excelapplication"
+		capname="form"
+		id="0adf07bc-1a4b-4842-ac4b-4e057a0517a5"
+		isrooted="True"
+		name="Book11Excel"
+		refpath="/form[@processname='EXCEL']"
+		searchtimeout="60000ms"
+		usecache="True">
+			<item
+			addcaps="listitem,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+			capname="listitem"
+			id="bd80e14e-40f5-46f5-9522-83bae726afe9"
+			name="BlankWorkbook"
+			refpath="/form[@processname='EXCEL']/element/container[@class='NetUIHWND']/container[@automationid='BackstageView']/container/container[@automationid='PlaceTabHomeContent']/container[@automationid='HomePageSlabCreateNew']/list/listitem[@name='Blank workbook']"
+			robustPath="/form[@processname='EXCEL']//listitem[@name='Blank workbook']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//container[@automationid='BackstageView']/?/?/container[@automationid='PlaceTabHomeContent']/container[@automationid='HomePageSlabCreateNew']/?/?/listitem[@name='Blank workbook']
+			</item>
+			<item
+			addcaps="button,accessible"
+			capname="button"
+			id="4e5af33e-e3f1-4949-9053-462492a94660"
+			name="ButtonOK"
+			refpath="/form[@title='Go To']/button[@accessiblename='OK']"
+			robustPath="/form[@processname='EXCEL']/button[@accessiblename='OK']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']/button[@accessiblename='OK']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="da61aaed-aa63-40b4-ad20-30e6442f0a2d"
+			name="FileSave"
+			refpath="/form[@processname='EXCEL']/element[@class='EXCEL2' and @instance='0']/container/element/element/container[@class='NetUIHWND']/container[@name='Ribbon']/toolbar/button[@automationid='FileSave']"
+			robustPath="/form[@processname='EXCEL']//button[@automationid='FileSave']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']/element[3]//container[@name='Ribbon']/toolbar[@name='Quick Access Toolbar']/button[@automationid='FileSave']
+			</item>
+			<item
+			addcaps="listitem,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+			capname="listitem"
+			id="54f041f4-2a87-4bd8-8585-3e7d4e95725b"
+			name="DesktopAutomationTest"
+			refpath="/form[@processname='EXCEL']/element/container[@class='NetUIHWND']/container[@automationid='BackstageView']/container/container[@automationid='GroupGettingStartedSaveAsMRUPlacesOrNavSlab']/list/container[@name='Today']/listitem[@name='Desktop Automation Test']"
+			robustPath="/form[@processname='EXCEL']//listitem[@name='Desktop Automation Test']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//container[@automationid='BackstageView']//list[@classname='NetUICoreListView']/container[@name='Today']/listitem[@name='Desktop Automation Test']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="6eea1926-b203-4e78-940a-fa9c5bced349"
+			name="ButtonSave"
+			refpath="/form[@title='Save As']/button[@text='&amp;Save']"
+			robustPath="/form[@processname='EXCEL']/button[@text='&amp;Save']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']/button[@text='&amp;Save']
+			</item>
+			<item
+			addcaps="cell,uiautomation"
+			capname="cell"
+			id="d6ef9780-c0fa-4604-805e-0cbcdd4d30c4"
+			name="CellE"
+			refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/container[@automationid='Book11']/container/table/cell[@name='E']"
+			robustPath="/form[@processname='EXCEL']//cell[@name='E']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//container[@automationid='Book11']/?/?/table[@automationid='Grid']/cell[@name='E']
+			</item>
+			<item
+			addcaps="cell,uiautomation"
+			capname="cell"
+			id="8296625c-faae-4f8c-9fb7-1394afece428"
+			name="Cell4"
+			refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/container[@automationid='desktop automation.xlsx']/container/table/cell[@name='4']"
+			robustPath="/form[@processname='EXCEL']//cell[@name='4']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//container[@automationid='desktop automation.xlsx']/?/?/table[@automationid='Grid']/cell[@name='4']
+			</item>
+			<item
+			addcaps="menuitem,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+			capname="menuitem"
+			id="7e697a46-2f23-4edb-b004-9c978ace0347"
+			name="Insert"
+			refpath="/form[@title='']/container/container/container[2]/menuitem[@name='Insert']"
+			robustPath="/form[@processname='EXCEL']//menuitem[@name='Insert']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']/?/?/container[@classname='NetUIPanViewer']/container[2]/menuitem[@name='Insert']
+			</item>
+			<item
+			addcaps="cell,uiautomation"
+			capname="cell"
+			id="269ffb61-d4a8-487a-b201-88120e341fe6"
+			name="CellF"
+			refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/container[@automationid='desktop automation.xlsx']/container/table/cell[@name='F']"
+			robustPath="/form[@processname='EXCEL']//cell[@name='F']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//container[@automationid='desktop automation.xlsx']/?/?/table[@automationid='Grid']/cell[@name='F']
+			</item>
+			<item
+			addcaps="menuitem,uiautomation,uiautomationinvoke,uiautomationscrollitem"
+			capname="menuitem"
+			id="fd815826-7012-4b8f-aded-cdcc7c9632a9"
+			name="Delete"
+			refpath="/form[@title='']/container/container/container[2]/menuitem[@name='Delete']"
+			robustPath="/form[@processname='EXCEL']//menuitem[@name='Delete']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']/?/?/container[@classname='NetUIPanViewer']/container[2]/menuitem[@name='Delete']
+			</item>
+			<item
+			addcaps="statusbar,uiautomation"
+			capname="statusbar"
+			id="b9a6dab5-636c-4f5b-a034-809a31680395"
+			name="StatusBar"
+			refpath="/form[@processname='EXCEL' and @class='XLMAIN']/element[@class='EXCEL2' and @instance='1']/container/element/element/container[@class='NetUIHWND']/statusbar[@name='Status Bar']"
+			robustPath="/form[@processname='EXCEL']//statusbar[@name='Status Bar']"
+			searchtimeout="20000ms">
+				/form[@processname='EXCEL']/element[@instance='1']/container[@caption='Status Bar']//statusbar[@name='Status Bar']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="a87772c0-540f-4ef0-afbe-ae54fb2fc0af"
+			name="Close"
+			refimgid="d33e2c63-35bc-4b3b-90df-c45d6e5dcef3"
+			refpath="/form[@processname='EXCEL']/element[@class='EXCEL2' and @instance='0']/container/element/element/container[@class='NetUIHWND']/container[@name='Ribbon']/button[@name='Close']"
+			robustPath="/form[@processname='EXCEL']//button[@name='Close']"
+			searchtimeout="20000ms">
+				/form[@processname='EXCEL']/element[3]/container[@caption='Ribbon']//container[@name='Ribbon']/button[@name='Close']
+			</item>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="8ba43f6e-b2e3-48cd-a947-adf44316378c"
+			name="Save"
+			robustPath=""
+			searchtimeout="20000ms">
+				/form[@processname='EXCEL']/?/?/form[@name='Microsoft Excel']/button[@name='Save']
+			</item>
+			<folder
+			addcaps="table,excelworksheet"
+			capname="table"
+			id="d2d49dbe-67ca-486e-a0d8-1d28096599de"
+			isrooted="True"
+			name="Sheet1"
+			refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook[@name='desktop automation.xlsx']/table[@name='Sheet1']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="d998b7f5-9372-4e5a-ac36-7e9d677ffbb5"
+				name="CellC1"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='1']/cell[@address='C1']"
+				robustPath="/form[@processname='EXCEL']//cell[@address='C1']"
+				searchtimeout="30000ms">
+					/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='1']/cell[@address='C1']
+				</item>
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="3083c0dd-d1e3-43c2-a753-aa2b17562905"
+				name="CellE1"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='1']/cell[@address='E1']"
+				robustPath="/form[@processname='EXCEL']//cell[@address='E1']"
+				searchtimeout="30000ms">
+					/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='1']/cell[@address='E1']
+				</item>
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="fe4e29ed-1113-4c94-8b21-693bbd99912f"
+				name="CellA5"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='5']/cell[@address='A5']"
+				robustPath="/form[@processname='EXCEL']//cell[@address='A5']"
+				searchtimeout="30000ms">
+					/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='5']/cell[@address='A5']
+				</item>
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="4538a3e1-f668-46c5-bc13-59313b6d3569"
+				name="CellD5"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='5']/cell[@address='D5']"
+				robustPath="/form[@processname='EXCEL']//cell[@address='D5']"
+				searchtimeout="30000ms">
+					/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='5']/cell[@address='D5']
+				</item>
+				<item
+				addcaps="cell,excelrange"
+				capname="cell"
+				id="0e0dccb0-9e49-42e4-a801-be85d6ff7fbe"
+				name="CellA6"
+				refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/table/row[@index='6']/cell[@address='A6']"
+				robustPath="/form[@processname='EXCEL']//table[@name='Sheet1']"
+				searchtimeout="30000ms">
+					/form[@processname='EXCEL']//table[@name='Sheet1']/row[@index='6']/cell[@address='A6']
+				</item>
+				<basepath>
+					/form[@processname='EXCEL']//table[@name='Sheet1']
+				</basepath>
+			</folder>
+			<item
+			addcaps="button,uiautomation,uiautomationinvoke"
+			capname="button"
+			id="643570b8-f5da-428a-96f4-3123ed030090"
+			name="Cancel"
+			refpath="/form[@title='Microsoft Excel']/container[@class='NetUIHWND']/form/button[@name='Cancel']"
+			robustPath="/form[@processname='EXCEL']//button[@name='Cancel']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']/?/?/form[@name='Microsoft Excel']/button[@name='Cancel']
+			</item>
+			<item
+			addcaps="cell,uiautomation"
+			capname="cell"
+			id="35145290-7ff1-4919-a910-975b3030f722"
+			name="Cell7"
+			refpath="/form[@processname='EXCEL']/element[@class='XLDESK']/workbook/container[@automationid='desktop automation.xlsx']/container/table/cell[@name='7']"
+			robustPath="/form[@processname='EXCEL']//cell[@name='7']"
+			searchtimeout="30000ms">
+				/form[@processname='EXCEL']//container[@automationid='desktop automation.xlsx']/?/?/table[@automationid='Grid']/cell[@name='7']
+			</item>
+			<basepath>
+				/form[@processname='EXCEL']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAD4SURBVDhPY0AGiovT3gPxf2zY+EgjNvweqhUC
+sGmEYSyawRiqFQKwaYRhbJpBmEGg2vG9QI3jf3xYsM4Zq2YQZsCmARsWDDPD6jK4AZVbp/wHgay1
+Hf9tp6aC2R37FiAMCTTGbwAIP3z/HIwP37sAppHliDLAZ24h2GYQALGR5YgyIHppDVT7fzAbWY7D
+TgGFD8NwA+RbfOHOh3kBJAaTJ2jAtGNrwDbr9UTCvYIciAQNAIU8COPi4zaAiIQkUG7/n0dP+r9E
+jDkGhiZiCOB1Uv2PDYM0C7lqEjZANNDgPzYsHmmKVTMIQ7VCgHi0+XtsinBh8Wjz9wCUDun8tlsj
+LwAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

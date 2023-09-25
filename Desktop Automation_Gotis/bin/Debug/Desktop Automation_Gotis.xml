@@ -1,0 +1,424 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Desktop Automation_Gotis</name>
+    </assembly>
+    <members>
+        <member name="T:Desktop_Automation_Gotis.CloseAUT">
+             <summary>
+            The CloseAUT recording.
+             </summary>
+        </member>
+        <member name="F:Desktop_Automation_Gotis.CloseAUT.repo">
+            <summary>
+            Holds an instance of the Desktop_Automation_GotisRepository repository.
+            </summary>
+        </member>
+        <member name="M:Desktop_Automation_Gotis.CloseAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.CloseAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.CloseAUT.CloseAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable CloseAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:Desktop_Automation_Gotis.CloseAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Desktop_Automation_Gotis.CloseAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Desktop_Automation_Gotis.CloseAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Desktop_Automation_Gotis.CloseAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Desktop_Automation_Gotis.Desktop_Automation_GotisRepository">
+            <summary>
+            The class representing the Desktop_Automation_GotisRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the Desktop_Automation_GotisRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Desktop_Automation_Gotis.Desktop_Automation_GotisRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepository.Book11Excel">
+            <summary>
+            The Book11Excel folder.
+            </summary>
+        </member>
+        <member name="T:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder">
+            <summary>
+            The Book11ExcelAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Book11Excel  folder.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.BlankWorkbook">
+            <summary>
+            The BlankWorkbook item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.BlankWorkbookInfo">
+            <summary>
+            The BlankWorkbook item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.ButtonOK">
+            <summary>
+            The ButtonOK item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.ButtonOKInfo">
+            <summary>
+            The ButtonOK item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.FileSave">
+            <summary>
+            The FileSave item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.FileSaveInfo">
+            <summary>
+            The FileSave item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.DesktopAutomationTest">
+            <summary>
+            The DesktopAutomationTest item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.DesktopAutomationTestInfo">
+            <summary>
+            The DesktopAutomationTest item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.ButtonSave">
+            <summary>
+            The ButtonSave item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.ButtonSaveInfo">
+            <summary>
+            The ButtonSave item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.CellE">
+            <summary>
+            The CellE item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.CellEInfo">
+            <summary>
+            The CellE item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.Cell4">
+            <summary>
+            The Cell4 item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.Cell4Info">
+            <summary>
+            The Cell4 item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.Insert">
+            <summary>
+            The Insert item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.InsertInfo">
+            <summary>
+            The Insert item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.CellF">
+            <summary>
+            The CellF item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.CellFInfo">
+            <summary>
+            The CellF item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.Delete">
+            <summary>
+            The Delete item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.DeleteInfo">
+            <summary>
+            The Delete item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.StatusBar">
+            <summary>
+            The StatusBar item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.StatusBarInfo">
+            <summary>
+            The StatusBar item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.Close">
+            <summary>
+            The Close item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.CloseInfo">
+            <summary>
+            The Close item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.Save">
+            <summary>
+            The Save item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.SaveInfo">
+            <summary>
+            The Save item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.Cancel">
+            <summary>
+            The Cancel item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.CancelInfo">
+            <summary>
+            The Cancel item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.Cell7">
+            <summary>
+            The Cell7 item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.Cell7Info">
+            <summary>
+            The Cell7 item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Book11ExcelAppFolder.Sheet1">
+            <summary>
+            The Sheet1 folder.
+            </summary>
+        </member>
+        <member name="T:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Sheet1Folder">
+            <summary>
+            The Sheet1Folder folder.
+            </summary>
+        </member>
+        <member name="M:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Sheet1Folder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Sheet1  folder.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Sheet1Folder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Sheet1Folder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Sheet1Folder.CellC1">
+            <summary>
+            The CellC1 item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Sheet1Folder.CellC1Info">
+            <summary>
+            The CellC1 item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Sheet1Folder.CellE1">
+            <summary>
+            The CellE1 item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Sheet1Folder.CellE1Info">
+            <summary>
+            The CellE1 item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Sheet1Folder.CellA5">
+            <summary>
+            The CellA5 item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Sheet1Folder.CellA5Info">
+            <summary>
+            The CellA5 item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Sheet1Folder.CellD5">
+            <summary>
+            The CellD5 item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Sheet1Folder.CellD5Info">
+            <summary>
+            The CellD5 item info.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Sheet1Folder.CellA6">
+            <summary>
+            The CellA6 item.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Desktop_Automation_GotisRepositoryFolders.Sheet1Folder.CellA6Info">
+            <summary>
+            The CellA6 item info.
+            </summary>
+        </member>
+        <member name="T:Desktop_Automation_Gotis.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:Desktop_Automation_Gotis.Recording1.repo">
+            <summary>
+            Holds an instance of the Desktop_Automation_GotisRepository repository.
+            </summary>
+        </member>
+        <member name="M:Desktop_Automation_Gotis.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="M:Desktop_Automation_Gotis.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Desktop_Automation_Gotis.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Desktop_Automation_Gotis.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Desktop_Automation_Gotis.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:Desktop_Automation_Gotis.StartAUT">
+             <summary>
+            The StartAUT recording.
+             </summary>
+        </member>
+        <member name="F:Desktop_Automation_Gotis.StartAUT.repo">
+            <summary>
+            Holds an instance of the Desktop_Automation_GotisRepository repository.
+            </summary>
+        </member>
+        <member name="M:Desktop_Automation_Gotis.StartAUT.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.StartAUT.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Desktop_Automation_Gotis.StartAUT.StartAutProcessIDVar">
+            <summary>
+            Gets or sets the value of variable StartAutProcessIDVar.
+            </summary>
+        </member>
+        <member name="M:Desktop_Automation_Gotis.StartAUT.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Desktop_Automation_Gotis.StartAUT.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Desktop_Automation_Gotis.StartAUT.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Desktop_Automation_Gotis.StartAUT.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

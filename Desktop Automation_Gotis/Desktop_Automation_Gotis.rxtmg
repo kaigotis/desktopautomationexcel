@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<modulegroupdoc
+rxversion="10.7">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<modulegroups
+			id="32b63a43-2bcc-4151-a7c1-4466f86e4605"
+			name="Desktop_Automation_Gotis">
+			</modulegroups>
+		</flatlistofchildren>
+		<childhierarchy>
+			<modulegroups
+			id="32b63a43-2bcc-4151-a7c1-4466f86e4605"
+			name="Desktop_Automation_Gotis">
+			</modulegroups>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+</modulegroupdoc>

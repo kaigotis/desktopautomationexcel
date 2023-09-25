@@ -1,0 +1,16 @@
+﻿<Properties>
+  <Array name="active" />
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <Array name="bookmarks" />
+  <Array name="files" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{365002D3-5702-4B90-BE5A-74F075BBF1CA}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution Desktop Automation_Gotis[Solution Items[]Desktop Automation_Gotis[]]]&#xD;&#xA;Solution Desktop Automation_Gotis\Desktop Automation_Gotis\Desktop_Automation_Gotis.rxtst&#xD;&#xA;Solution Desktop Automation_Gotis" />
+  <StartupProject value="{365002D3-5702-4B90-BE5A-74F075BBF1CA}" />
+</Properties>

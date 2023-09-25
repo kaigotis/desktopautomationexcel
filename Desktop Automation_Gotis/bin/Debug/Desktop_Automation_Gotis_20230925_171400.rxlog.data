@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.33s"
+		durationms="2330"
+		type="root"
+		rid="819495e8ed186db"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="Kai Gotis"
+		rxversion="10.7.4.0"
+		host="DESKTOP-RG6499B"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="9/25/2023 5:14:00 PM"
+		timestampiso="2023-09-25T09:14:00"
+		endtime="9/25/2023 5:14:03 PM"
+		timeoutfactor="1"
+		runid=""
+		sutversion="">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<item
+			timeRelativeToTestSuiteStartTime="00:02.311"
+			timeRelativeToTestModuleStartTime="00:02.311"
+			timeWallClock="17:14:03"
+			time="00:02.311"
+			level="Failure"
+			category="TestSuite">
+			<message>
+				Thread was being aborted.
+			</message>
+			<metainfo
+				stacktrace="   at System.Windows.Forms.Application.ComponentManager.System.Windows.Forms.UnsafeNativeMethods.IMsoComponentManager.FPushMessageLoop(IntPtr dwComponentID, Int32 reason, Int32 pvLoopData)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoopInner(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.ThreadContext.RunMessageLoop(Int32 reason, ApplicationContext context)
+   at System.Windows.Forms.Application.RunDialog(Form form)
+   at System.Windows.Forms.Form.ShowDialog(IWin32Window owner)
+   at Infralution.Licensing.EvaluationDialog.ShowDialog()
+   at Ranorex.Core.ElementEngine.CheckTrial(Boolean verbose, AuthenticatedLicense nodeLockedLicense, Boolean isLimitedTrial)
+   at Ranorex.Core.ElementEngine.CheckMachineLicense(Boolean verbose, AuthenticatedLicense nodeLockedLicense, NodeLockedLicenseStatus nodeLockedStatus)
+   at Ranorex.Core.ElementEngine.CheckLicense(Boolean verbose)
+   at Ranorex.Core.ElementEngine.AssertLicense()
+   at Ranorex.Core.ElementEngine..ctor()
+   at Ranorex.Core.ElementEngine.get_Instance()
+   at Ranorex.Core.Testing.TestSuiteRunner.RunInternal(Type containerType, String[] testSuiteXmls, RunParams[] rps)"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>
